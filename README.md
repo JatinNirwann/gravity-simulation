@@ -1,26 +1,24 @@
-# gravity-simulation
+# Gravity Simulation  
 
-## This project is still in development. Contributions and feedback are welcome!
+## ⚡ Planned Work  
+- Developing a **gravity simulation** using C++ and OpenGL.  
+- Implementing **real-time physics calculations** for object interactions.  
+- Using **OpenGL for rendering** in 2D/3D space.  
+- Making the simulation **expandable** for more physics concepts.  
+- Setting up **CMake and vcpkg** for dependency management.  
 
+## Project Status  
+This project is still in the early stages. Contributions and feedback are welcome!  
 
-This is an ongoing project for simulating gravity using C++ and OpenGL. The simulation aims to visualize gravitational interactions between objects in a 2D/3D space.
+## Requirements (Planned)  
+- C++  
+- OpenGL  
+- CMake  
+- vcpkg (for managing dependencies)  
 
-## Features (Planned & Implemented)
-- Real-time physics simulation
-- OpenGL-based rendering
-- Basic object interactions
-- Expandable to include more physics concepts
-
-## Requirements
-- C++
-- OpenGL
-- CMake
-- vcpkg (for managing dependencies)
-
-## Build Instructions
+## Build Instructions (Planned)  
 ```sh
 mkdir build
 cd build
 cmake .. -DCMAKE_TOOLCHAIN_FILE=C:/path/to/vcpkg.cmake
 cmake --build .
-```
