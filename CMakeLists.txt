@@ -8,6 +8,7 @@ find_package(GLEW REQUIRED)
 find_package(glfw3 CONFIG REQUIRED)
 find_package(glm CONFIG REQUIRED)
 
-add_executable(main gravity_sim.cpp)
+add_executable(simulation main.cpp)
 
-target_link_libraries(main PRIVATE GLEW::GLEW glfw glm::glm)
+
+target_link_libraries(simulation PRIVATE GLEW::GLEW glfw glm::glm)
