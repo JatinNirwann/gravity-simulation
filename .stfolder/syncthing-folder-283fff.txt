@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: hdils-hvkch
+created: 2025-03-20T19:12:24+05:30
