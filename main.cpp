@@ -11,6 +11,15 @@ float screenWidth = 800.0f;
 int main(){
     GLFWwindow* window= StartGLFW();
 
+
+    glfwMakeContextCurrent(window); 
+
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    glOrtho(0, screenWidth, 0, screenHeight, -1, 1); 
+    glMatrixMode(GL_MODELVIEW);
+    glLoadIdentity();
+
     float centreX = screenWidth / 2.0f;
     float centreY = screenHeight / 2.0f;
     float radius = 50.0f;
